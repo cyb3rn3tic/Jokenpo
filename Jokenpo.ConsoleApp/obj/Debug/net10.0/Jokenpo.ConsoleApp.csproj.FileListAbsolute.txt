@@ -1,0 +1,14 @@
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\bin\Debug\net10.0\Jokenpo.ConsoleApp.exe
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\bin\Debug\net10.0\Jokenpo.ConsoleApp.deps.json
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\bin\Debug\net10.0\Jokenpo.ConsoleApp.runtimeconfig.json
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\bin\Debug\net10.0\Jokenpo.ConsoleApp.dll
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\bin\Debug\net10.0\Jokenpo.ConsoleApp.pdb
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\Jokenpo.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\Jokenpo.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\Jokenpo.ConsoleApp.AssemblyInfo.cs
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\Jokenpo.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\Jokenpo.ConsoleApp.dll
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\refint\Jokenpo.ConsoleApp.dll
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\Jokenpo.ConsoleApp.pdb
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\Jokenpo.ConsoleApp.genruntimeconfig.cache
+C:\Users\steff\Documents\Academia do programador\Jokenpo\Jokenpo.ConsoleApp\obj\Debug\net10.0\ref\Jokenpo.ConsoleApp.dll
