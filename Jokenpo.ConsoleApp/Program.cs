@@ -5,14 +5,18 @@ namespace Jokenpo.ConsoleApp;
 
 class Program
 {
+
     static void Main(string[] args)
     {
-        do 
-        {
-            Console.WriteLine("------------------------");
-            Console.WriteLine("Bem-vindo ao Jokenpô!");
-            Console.WriteLine("------------------------");
 
+        cabecalho();
+        escolhaJogador();
+
+    }
+    static string escolhaJogador()
+    {
+        do
+        {
             Console.WriteLine("Escolha uma opção:");
             Console.WriteLine("1 - Pedra");
             Console.WriteLine("2 - Papel");
@@ -22,7 +26,7 @@ class Program
             string opcao = Console.ReadLine()?.Trim() ?? ""; //// O "??" evita o aviso de valor nulo e o Trim() remove espaços acidentais
 
             Random random = new Random();
-            int opcaoComputador = random.Next(1, 3);
+            int opcaoComputador = random.Next(1, 4);
 
             switch (opcao)
             {
@@ -39,12 +43,12 @@ class Program
                     else if (opcaoComputador == 2)
                     {
                         Console.WriteLine("\nO computador venceu! Papel cobre Pedra.");
-                        Console.WriteLine("---------------------------------------");
+                        Console.WriteLine("-----------------------------------------");
                     }
                     else
                     {
                         Console.WriteLine("\nParabéns! Você venceu! Pedra quebra Tesoura.");
-                        Console.WriteLine("--------------------------------------------");
+                        Console.WriteLine("----------------------------------------------");
 
                     }
                     continue;
@@ -61,13 +65,13 @@ class Program
                     else if (opcaoComputador == 1)
                     {
                         Console.WriteLine("\nParabéns! Você venceu! Papel cobre Pedra.");
-                        Console.WriteLine("-----------------------------------------");
+                        Console.WriteLine("-------------------------------------------");
 
                     }
                     else
                     {
                         Console.WriteLine("\nO computador venceu! Tesoura corta Papel.");
-                        Console.WriteLine("-----------------------------------------");
+                        Console.WriteLine("-------------------------------------------");
                     }
                     continue;
                 case "3":
@@ -91,13 +95,24 @@ class Program
                     }
                     continue;
                 case "4":
+                    Console.WriteLine("------------------------------");
                     Console.WriteLine("Saindo do jogo. Até a próxima!");
-                    return;
+                    Console.WriteLine("------------------------------");
+                    return opcao;
                 default:
                     Console.WriteLine("Opção inválida. Por favor, escolha uma opção válida.");
                     continue;
             }
-            
-        }while (true);
+
+        } while (true);
     }
+
+    static void cabecalho()
+    {
+        Console.Clear();
+        Console.WriteLine("------------------------");
+        Console.WriteLine("Bem-vindo ao Jokenpô!");
+        Console.WriteLine("------------------------");
+    }
+
 }
